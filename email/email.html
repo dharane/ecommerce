@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="email.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="mail-heading">
+                Please Enter your email address
+            </div>
+            <div class="email" id="mailId">
+                <input type="text" class="mail" id="mailBox" placeholder="Email id">
+            </div>
+            <div class="submit" id="Submit" onclick="submitFunction()">
+                <button type="button" class="submit-btn">SUBMIT</button>
+            </div>
+            <div class="mail_sent" id="mailSent">Email Sent</div>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../e-commerce.js"></script>
+    <script src="./email.js"></script>
+
+</body>
+
+</html>
